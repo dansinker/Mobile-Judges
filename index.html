@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Illinois Judges: mobile guide</title>
+<meta name="viewport" content="width=device-width", user-scalable=no" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script src="jquery.ba-replacetext.min.js"></script>
+<style type="text/css">
+body {
+	padding: 5px;
+	font-family: Helvetica, Verdana, Arial, sans-serif;
+}
+
+h1 {
+font-size: 1.7em;
+}
+
+h1, h2, h3 {
+margin: 0px;
+padding: 0px;
+}
+
+h1 span {
+font-style: normal;
+font-weight: normal;
+}
+p {
+	line-height: 1.6em;
+	color: #4f4f4f;
+	font-style: italic;
+	font-size: 0.8em;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+a {
+	color: #2b2b2b;
+	text-decoration: underline;
+	padding: 3px;
+	-webkit-border-radius: 5px;
+}
+a:hover {
+	color: white;
+	background-color: #688d4d;
+	
+}
+
+li {
+	font-size: 1.2em;
+	background-color: #c6e47f;
+	margin-bottom: 5px;
+	padding: 8px;
+	list-style-type: none;
+	-webkit-border-radius: 8px;
+	overflow: hidden;
+
+}
+
+.even {
+	background-color: #daf0b6;
+}
+ul {
+	padding-left: 0px;
+	padding-bottom: 10px;
+	padding-right: 5px;
+	padding-top: 5px;
+	margin: 0px;
+}
+
+.no {
+	color: white;
+	background-color: #9b080d;
+}
+
+.right {
+float: right;
+}
+
+#footer {
+margin-top: 20px;
+}
+
+h3 {
+margin-top: 20px;
+margin-bottom: 10px;
+}
+
+h2 {
+font-size: 1.3em;
+}
+
+h1 {
+margin-bottom: -10px;
+}
+
+</style>
+</head>
+<body>
+<h1>Illinois Judges <span>Mobile&nbsp;Guide</span></h1>
+<p>Built from the data compiled by the <a href="http://voteforjudges.org/">Committee to Elect Qualified Judges</a> using the Judicial Evaluations of the <a href="http://www.chicagocouncil.org/">Chicago Council of Lawyers</a>.</p>
+<h3>November 2, 2010 Ballot (in ballot order)</h3>
+<h2>Illinois Supreme Court</h2>
+<ul>
+<li>Charles R. Freeman YES
+<li>Thomas R. Fitzgerald YES
+</ul>
+<h2>Illinois Appelate Court</h2>
+<ul>
+<li>Joseph Gordon YES
+<li>Shelvin Louise Marie Hall YES
+</ul>
+<h2>Circuit Court Judge</h2>
+<ul>
+<li>Sophia H. Hall YES
+<li>Irwin J. Solganick YES
+<li>Alexander Patrick White YES
+<li>Donald J. Oâ€™Brien, Jr. YES
+<li>Vincent Michael Gaughan YES
+<li>William D. Maddux YES
+<li>Robert W. Bertucci YES
+<li>Richard J. Billik, Jr. YES
+<li>Jennifer Duncan Brice YES
+<li>Thomas Michael Davy YES
+<li>David Delgado YES
+<li>Deborah Mary Dooling YES
+<li>Timothy C. Evans YES
+<li>Allen S. Goldberg YES
+<li>Susan Ruscitti Grussel YES
+<li>Cheyrl D. Ingram YES
+<li>Raymond L. Jagielski YES
+<li>Dorothy F. Jones NO
+<li>Daniel E. Jordan YES
+<li>Carol A. Kelly YES
+<li>Bertina E. Lampkin YES
+<li>Jeffrey Lawrence NO
+<li>William Maki YES
+<li>William D. Oâ€™Neal NO
+<li>Robert J. Quinn YES
+<li>Leida J. Gonzalez Santiago YES
+<li>Daniel J. Sullivan YES
+<li>Sharon Marie Sullivan YES
+<li>Susan Frances Zwick YES
+<li>Susan Jeanine McDunn NO
+<li>James Patrick McCarthy YES
+<li>Paul P. Biebel, Jr. YES
+<li>Nancy J. Arnold YES
+<li>Arnette R. Hubbard YES
+<li>Thomas L. Hogan YES
+<li>Nicholas R. Ford YES
+<li>Charles Patrick Burns YES
+<li>Thomas P. Fecarotta, Jr. YES
+<li>Denise Kathleen Filan YES
+<li>LaQuietta J. Hardy-Campbell YES
+<li>Nathaniel R. Howse, Jr. YES
+<li>John Patrick Kirby YES
+<li>Diane Joan Larsen YES
+<li>Daniel Joseph Lynch YES
+<li>Kathleen Mary Pantle YES
+<li>Kevin Michael Sheehan YES
+<li>Paul Stralka YES
+<li>John D. Turner, Jr. NO
+<li>LeRoy K. Martin, Jr. YES
+<li>Paula Marie Daleo YES
+<li>Laurence J. Dunford NO
+<li>Robert Balanoff YES
+<li>Jeanne R. Cleveland Bernstein YES
+<li>Kathleen Marie Burke YES
+<li>Kay Marie Hanlon YES
+<li>Michelle Jordan YES
+<li>Thomas J. Kelley YES
+<li>William J. Kunkle YES
+<li>Clare Elizabeth McWilliams YES
+<li>Mary Lane Mikva YES
+<li>Patrick T. Murphy NO
+<li>Timothy Patrick Murphy YES
+<li>Sheryl Ann Pethers YES
+<li>Jim Ryan NO
+<li>Edward â€œEdâ€ Washington II YES
+</ul>
+<div id="footer">
+Built by <a href="http://www.twitter.com/dansinker">@dansinker</a> from data compiled by the <a href="http://voteforjudges.org/">Committee to Elect Qualified Judges</a>.
+</div>
+
+<script type="text/javascript">
+$('li:even').addClass('even');
+$('li:contains("NO")').addClass('no');
+$('li').replaceText( /\bYES\b/gi, "<span class='right'>YES<\/span>" );
+$('li').replaceText( /\bNO\b/gi, "<span class='right'>NO<\/span>" );
+$('li').replaceText( /â€œ/gi, "\"" );
+$('li').replaceText( /â€/gi, "\"" );
+$('li').replaceText( /â€™/gi, "\'" );
+
+
+</script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-19463748-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>
